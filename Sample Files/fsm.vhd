@@ -28,7 +28,7 @@ BEGIN
         WHEN L  =>  next_state  <= L1;  
         WHEN L1 =>  next_state  <= O;   
         WHEN O  =>  next_state  <= N;   
-        WHEN N  =>  next_state  <= N;   
+        WHEN N  =>  next_state  <= H;   
       END CASE;     
   END PROCESS;
   
